@@ -1,0 +1,65 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.obj
+
+# Log files and binaries
+log/
+*.log
+*.log.*
+*.log-*
+*.log/*
+
+# Temporary files
+*.tmp
+
+# Compiled Go files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.out
+*.tmp
+
+# Local binary files
+/bin/
+/build/
+*.local
+
+# Application binaries
+/app
+
+# Generated files
+_*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+
+# Config files
+config/
+
+# Environment variables file
+.env

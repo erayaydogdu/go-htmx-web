@@ -1,0 +1,16 @@
+## Request Todos
+GET http://localhost:6000 HTTP/1.2
+
+
+### Mark Todo as Completed
+PUT http://localhost:6000/todo/1 HTTP/1.2
+
+### Delete Todo
+DELETE http://localhost:6000/todo/2 HTTP/1.2
+
+### Create Todo
+POST http://localhost:6000/create HTTP/1.2
+content-type: application/x-www-form-urlencoded
+{
+    "todo": "Learn Go today",
+}
